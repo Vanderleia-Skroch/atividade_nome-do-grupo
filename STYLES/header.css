@@ -1,14 +1,14 @@
 .cabecalho{
-    background-color: var(--cor-cabecalho);
+    background-color: var (--cor-d0-cabecalho);
     padding: 1em;
 }
 
-.container {
+.container{
     display: flex;
     align-items: center;
 }
 
-.container__imagem, .container__frase {
+.container__imagem, .container__frase{
     padding: 1em;
 }
 
@@ -17,19 +17,17 @@
 }
 
 @media screen and (min-width: 820px) {
-    .container__titulo, .container__titulo--negrito {
-        font-size: 30px;
+    .container__titulo{
+        fonte-size: 30px;
+        display:block;
     }
-
-    .container__titulo {
-        font-weight: 400;
-        display: block;
-    }
+    
 }
-@media screen and (min-width: 1024px) {
+
+@media screen and (min-width: 1024px){
     .container__frase{
-        padding-right: 5em;
         font-size: 20px;
         display: block;
+        padding-left: 10em;
     }
 }
