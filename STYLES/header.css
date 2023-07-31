@@ -17,8 +17,9 @@
 }
 
 @media screen and (min-width: 820px) {
-    .container__titulo, .container__titulo--negrito {
+    .container__titulo{
         font-size: 30px;
+        display: block;
     }
 
     .container__titulo {
