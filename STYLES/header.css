@@ -1,14 +1,14 @@
 .cabecalho{
-    background-color: var (--cor-d0-cabecalho);
+    background-color: var(--cor-cabecalho);
     padding: 1em;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
 }
 
-.container__imagem, .container__frase{
+.container__imagem, .container__frase {
     padding: 1em;
 }
 
