@@ -8,6 +8,10 @@
     align-items: center;
 }
 
+.container__imagem, .container__frase{
+    padding: 1em;
+}
+
 .container__imagem, .container__frase {
     padding: 1em;
 }
